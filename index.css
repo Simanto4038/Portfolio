@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.spn1{
+    font-size: 40px;
+    color: rgb(224, 150, 12);
+}
+.spn2{
+    font-size: 54px;
+    color: rgb(224, 79, 12);
+}
+.btn{
+    background-image:linear-gradient( to right, rgb(253, 113, 113),rgba(250, 66, 10, 0.966));
+    
+    height: 40px;
+    width: 135px;
+    border: none;
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.heading{
+    flex: 1;
+    margin: 20px 20px 20px 90px;
+}
+.img1{
+    flex: 1;
+    height: 590px;
+    margin: 0px 20px 20px 30px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(190, 181, 181);
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/*2nd half*/
+.containerD{
+    display: flex;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.img2{
+    flex: 1;
+    height: 590px;
+    margin: 0px 20px 20px 70px;
+}
+.dream{
+    flex: 1;
+    margin: 80px 20px 20px 90px;
+}
+
+.spn3{
+    font-size: 22px;
+    color: rgb(255, 72, 40);
+}
+.spn4{
+    color:rgb(255, 72, 40); ;
+}
+.containerC{
+    display: flex;
+}
+.workexp1{
+    border: solid 3px;
+    border-left:solid 6px rgb(255, 72, 40);
+    height: 380px;
+    width: 80%;
+    margin: 25px;
+    padding: 10px;
+}
+
+.workexp2{
+    border: solid 3px;
+    border-left:solid 6px rgb(40, 133, 255);
+    height: 380px;
+    width: 80%;
+    margin: 25px;
+    padding: 10px;
+}
+.spn5{
+    font-size: 26px;
+    font-weight: 800;
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) 
+{
+    .heading{
+        flex: 1;
+        margin-left: 10%;
+    }
+    .img1{
+        flex: 1;
+        height: 220px;
+        margin-left: 5%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    .spn1{
+        font-size: 18px;
+        color: rgb(224, 150, 12);
+    }
+    .spn2{
+        font-size: 24px;
+        color: rgb(224, 79, 12);
+    } 
+    p{
+        font-size: 10px;
+    }
+}    
+    
