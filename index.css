@@ -184,21 +184,33 @@ footer a:visited{
         border: none;
         border-radius: 100%;
         font-size: 12px;
-        margin: 2px;
+        margin: 5px;
         display: flex;
-        height: 80px;
-        width: 80px;
+        height: 100px;
+        width: 100px;
         color: snow;
-        text-align: center;
-
+       
     }
     .rbtn1{
-        background-color: rgb(37, 159, 207);
+        background-color: rgb(23, 119, 167);
+        text-align: center;
     }
     .rbtn2{
-        background-color: rgb(207, 50, 155);
+        
+        background-color: rgb(180, 244, 255);
     }
-
+    .rbtn2 img {
+        
+        position: relative;
+        left: 20px;
+        top: 25px;
+    }
+    .rbtn1 img {
+        
+        position: relative;
+        left: 18px;
+        top: 25px;
+    }
     .img2{
         flex: 1;
         height: 200px;
