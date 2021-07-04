@@ -37,6 +37,9 @@ h1{
     height: 590px;
     margin: 0px 20px 20px 30px;
 }
+.rsp1{
+    display: none;
+}
 a:link{
     color: white;
     text-decoration: none;
@@ -172,6 +175,30 @@ footer a:visited{
         height: 220px;
         margin-left: 5%;
     }
+    .rsp1{
+        display: flex;
+        height: 220px;
+
+    }
+    .rsp1 button{
+        border: none;
+        border-radius: 100%;
+        font-size: 12px;
+        margin: 2px;
+        display: flex;
+        height: 80px;
+        width: 80px;
+        color: snow;
+        text-align: center;
+
+    }
+    .rbtn1{
+        background-color: rgb(37, 159, 207);
+    }
+    .rbtn2{
+        background-color: rgb(207, 50, 155);
+    }
+
     .img2{
         flex: 1;
         height: 200px;
@@ -196,7 +223,7 @@ footer a:visited{
         box-shadow: 10px 15px 15px 15px rgba(196, 194, 194, 0.918);
         border-left:solid 6px rgb(255, 72, 40);
         
-        height: 340px;
+        height: 400px;
         width: 50%;
         margin: 30px;
         margin-left: 70px;
@@ -207,7 +234,7 @@ footer a:visited{
     .workexp2{
         box-shadow: 10px 15px 15px 15px rgba(196, 194, 194, 0.918);
         
-        height: 340px;
+        height: 400px;
         width: 50%;
         margin: 30px;
         padding: 10px;
