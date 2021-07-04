@@ -192,24 +192,30 @@ footer a:visited{
        
     }
     .rbtn1{
-        background-color: rgb(23, 119, 167);
+        background-color: rgb(228, 228, 228);
         text-align: center;
     }
     .rbtn2{
         
-        background-color: rgb(180, 244, 255);
+        background-color: rgb(255, 255, 255);
     }
     .rbtn2 img {
         
         position: relative;
-        left: 20px;
-        top: 25px;
+        left: -5px;
+        top: -1px;
+    }
+    .rbtn3 img {
+        
+        position: relative;
+        left: -4px;
+        top: -2px;
     }
     .rbtn1 img {
         
         position: relative;
-        left: 18px;
-        top: 25px;
+        left: -5px;
+        top: -1px;
     }
     .img2{
         flex: 1;
