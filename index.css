@@ -154,9 +154,13 @@ footer a:visited{
         height: 220px;
         margin-left: 5%;
     }
-
+    .img2{
+        flex: 1;
+        height: 290px;
+        margin: 10px;
+    }
     h1{
-        font-size: 20px;
+        font-size: 18px;
     }
     .spn1{
         font-size: 18px;
@@ -167,7 +171,37 @@ footer a:visited{
         color: rgb(224, 79, 12);
     } 
     p{
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .workexp1{
+        box-shadow: 10px 15px 15px 15px rgba(196, 194, 194, 0.918);
+        border-left:solid 6px rgb(255, 72, 40);
+        
+        height: 340px;
+        width: 50%;
+        margin: 30px;
+        margin-left: 70px;
+        padding: 15px;
+        padding-left: 22px;
+    }
+    
+    .workexp2{
+        box-shadow: 10px 15px 15px 15px rgba(196, 194, 194, 0.918);
+        
+        height: 340px;
+        width: 50%;
+        margin: 30px;
+        padding: 10px;
+        padding-bottom: 23px;
+        border-left: solid 6px ;
+        border-image: linear-gradient( blue, rgb(84, 219, 213), rgb(82, 232, 252)) ;
+        border-image-slice: 1;
+    }
+    .spn5{
+        font-size: 18px;
+        font-weight: 800;
+        color: tomato;
     }
 }    
     
